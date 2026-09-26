@@ -9,19 +9,29 @@ ModelImporter:
     100002: PalmTreeLeaves
     100004: PalmTreeRoot
     100006: PalmTreeLeaf
+    100008: PalmTreeLeaves.001
+    100010: PalmTreeRoot.001
     400000: //RootNode
     400002: PalmTreeLeaves
     400004: PalmTreeRoot
     400006: PalmTreeLeaf
+    400008: PalmTreeLeaves.001
+    400010: PalmTreeRoot.001
     2300000: PalmTreeLeaves
     2300002: PalmTreeRoot
     2300004: PalmTreeLeaf
+    2300006: PalmTreeLeaves.001
+    2300008: PalmTreeRoot.001
     3300000: PalmTreeLeaves
     3300002: PalmTreeRoot
     3300004: PalmTreeLeaf
+    3300006: PalmTreeLeaves.001
+    3300008: PalmTreeRoot.001
     4300000: PalmTreeLeaves
     4300002: PalmTreeRoot
     4300004: PalmTreeLeaf
+    4300006: PalmTreeLeaves.001
+    4300008: PalmTreeRoot.001
   materials:
     importMaterials: 1
     materialName: 0
@@ -29,7 +39,7 @@ ModelImporter:
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
-    resampleRotations: 1
+    resampleCurves: 1
     optimizeGameObjects: 0
     motionNodeName: 
     animationImportErrors: 

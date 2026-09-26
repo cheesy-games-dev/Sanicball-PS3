@@ -7,14 +7,17 @@ namespace Sanicball
     {
         private static AudioSource instance;
 
+        [RuntimeInitializeOnLoadMethod]
+        private static void Init()
+        {
+            instance = new GameObject("UI Sound").AddComponent<AudioSource>();
+            Object.DontDestroyOnLoad(instance.gameObject);
+        }
+
+
         public static void Play(AudioClip clip)
         {
-            if (!instance)
-            {
-                instance = new GameObject("UI Sound").AddComponent<AudioSource>();
-            }
-            instance.clip = clip;
-            instance.Play();
+            instance.PlayOneShot(clip);
         }
     }
 }
